@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { SkillsData } from "../Data/SkillsData";
 export default function Skills() {
   return (

@@ -1,4 +1,3 @@
-import { ProjectsData } from "../Data/ProjectsData";
 import React from "react";
 
 export default function Projects() {
