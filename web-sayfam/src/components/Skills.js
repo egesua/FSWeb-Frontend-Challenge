@@ -10,13 +10,10 @@ export default function Skills() {
         Skills
       </h1>
       <div className="flex flex-wrap flex-col gap-12 lg:flex-row">
-        {SkillsData.map((key, skill) => {
-
-          const index = [1,2,3,4,5,6,7,8]
-          key = {index}
-
+        {SkillsData.map((skill, index) => {
+          
           return (
-            <div className=" xl:pt-[5.6rem]  xl:pl-[1rem]">
+            <div className=" xl:pt-[5.6rem]  xl:pl-[1rem]" key={index}>
               <img className=" rounded-md bg-contain" alt=" " src={skill.imgsrc} />
 
               <p className="text-neutral-500  text-medium xl:text-[2rem] font-['Inter'] xl:leading-[98.09px] xl:tracking-[0.01em]">
